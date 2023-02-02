@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(120deg, #3ca7ee, #9b408f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {max-width: 400px; height:auto; margin: 0 10px; padding: 2rem!important;}
+
+.btn-sub {background-color: #38aae6; color:#fff; text-transform: uppercase; transition: all .5s linear;}
+.btn-sub:hover {background: linear-gradient(45deg, #00dbde, #fc00ff); cursor: pointer;}
+
+@media (min-width: 1200px) { 
+    #wrapper {margin: 0; padding: 3rem!important;}
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { }
